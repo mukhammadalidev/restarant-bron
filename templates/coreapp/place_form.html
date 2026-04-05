@@ -1,0 +1,1 @@
+{% extends 'coreapp/base.html' %}{% block content %}<h2 class="mb-4">{{ title }}</h2><form method="post" class="card card-body">{% csrf_token %}{{ form.as_p }}<button class="btn btn-success">Saqlash</button></form>{% endblock %}
